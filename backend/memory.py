@@ -7,7 +7,7 @@ import sqlite3
 import json
 import uuid
 from datetime import datetime
-from config import DATABASE_PATH
+from backend.config import DATABASE_PATH
 
 
 class InvestigationMemory:

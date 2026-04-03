@@ -5,7 +5,7 @@ Mac M3 Pro runs: OLLAMA_HOST=0.0.0.0 ollama serve
 
 import requests
 import json
-from config import OLLAMA_HOST, OLLAMA_MODEL
+from backend.config import OLLAMA_HOST, OLLAMA_MODEL
 
 SYSTEM_PROMPTS = {
     'briefing': """You are CyberGuard, an AI security assistant for executives and managers.

@@ -11,8 +11,8 @@ from agents.threat_agent import ThreatDetectionEngine
 from agents.timeline_agent import TimelineAgent
 from agents.soar_agent import SOARAgent
 from agents.query_agent import QueryAgent
-from memory import InvestigationMemory
-from safety import SafetyLayer
+from backend.memory import InvestigationMemory
+from backend.safety import SafetyLayer
 
 
 class SOCOrchestrator:

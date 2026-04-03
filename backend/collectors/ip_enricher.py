@@ -10,7 +10,7 @@ import ipaddress
 import dataclasses
 from datetime import datetime, timedelta
 from dataclasses import dataclass
-from config import IP_API_URL, IP_API_BATCH_URL, DATABASE_PATH
+from backend.config import IP_API_URL, IP_API_BATCH_URL, DATABASE_PATH
 
 HIGH_RISK_COUNTRIES = {'CN': 'China', 'RU': 'Russia', 'KP': 'North Korea', 'IR': 'Iran', 'BY': 'Belarus', 'SY': 'Syria'}
 MEDIUM_RISK_COUNTRIES = {'NG': 'Nigeria', 'BR': 'Brazil', 'RO': 'Romania', 'UA': 'Ukraine', 'IN': 'India', 'VN': 'Vietnam'}

@@ -19,16 +19,16 @@ app.secret_key = os.getenv('SECRET_KEY', 'cyberguard-secret-2025')
 CORS(app, supports_credentials=True, origins=['http://localhost:5173', 'http://localhost:3000'])
 socketio = SocketIO(app, cors_allowed_origins='*', async_mode='threading')
 
-from auth import setup_auth, requires_permission, authenticate
-from orchestrator import SOCOrchestrator
-from llm_engine import stream_response, check_connection
-from live_stream import start_live_stream
-from memory import InvestigationMemory
+from backend.auth import setup_auth, requires_permission, authenticate
+from backend.orchestrator import SOCOrchestrator
+from backend.llm_engine import stream_response, check_connection
+from backend.live_stream import start_live_stream
+from backend.memory import InvestigationMemory
 from agents.threat_agent import ThreatDetectionEngine
 from collectors.winlog_collector import WindowsEventLogCollector
 from collectors.network_collector import NetworkCollector
 from collectors.ip_enricher import IPEnricher
-from safety import SafetyLayer
+from backend.safety import SafetyLayer
 from simulators.attack_sim import AttackSimulator
 
 # ── Init ──────────────────────────────────────────────────────────────────────
