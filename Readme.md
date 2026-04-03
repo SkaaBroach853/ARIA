@@ -6,7 +6,7 @@ It combines log analysis, threat detection, and AI-based explanation into a sing
 
 ---
 
-## 🚀 Features
+##  Features
 
 * AI-powered security analyst (local LLM via Ollama)
 * Multi-source log correlation (network, login, alerts)
