@@ -135,3 +135,10 @@ Use interactive docs for full schema and parameters: `http://localhost:8000/docs
 - Do not commit real secrets, tokens, or public tunnel URLs.
 - Move sensitive values from `backend/config.py` into environment variables for shared/staging/production deployments.
 - Restrict CORS origins before production release.
+
+## Made By Team Acers :
+- Shreyash Gawande
+- Aaditya Devdiga
+- Nahush Jadhav
+- Trishant Jawale
+
