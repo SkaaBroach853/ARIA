@@ -1,4 +1,4 @@
-# CyberGuard — AI-Driven SOC Co-Pilot
+# ARIA— AI-Driven SOC Co-Pilot
 
 CyberGuard is an intelligent Security Operations Center (SOC) assistant that helps analysts detect, investigate, and respond to cyber threats in real time.
 
